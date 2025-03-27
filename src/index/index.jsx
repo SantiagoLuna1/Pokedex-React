@@ -16,6 +16,10 @@ const ListaPokemones = styled.div`
   margin: 0 auto;
   box-sizing: border-box;
   justify-items: center; 
+
+  @media screen and (max-width: 700px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 const ContenedorPaginacion = styled.div`
